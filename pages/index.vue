@@ -7,7 +7,7 @@
     <p class="memory" style="color: white;font-weight: 400;font-family: Shippori Mincho, serif;text-align: center;line-height: 1.5;font-size: 6rem">
       <span class="moji-header">記憶</span>
       <span style="font-size: 2.5rem;">の</span>
-      <span class="moji-header">かけら</span><br class="display-none-mobile">
+      <span class="moji-header">かけら</span><br class="display-none-pc">
       <span style="font-size: 2.5rem;">を</span><span style="font-size: 3rem;">かたちに</span>
     </p>
     <hr class="display-none-mobile" style="border-bottom: .2rem solid white;position: absolute;bottom: 2.5rem;width: 19vw;right: 48rem;height: 1rem;border-bottom: .2rem solid white;border-bottom: .2rem solid white;"></div>

@@ -76,13 +76,13 @@ a:visited {
 }
 
 @media (max-width: 768px) {
-  .display-none-pc {
+  .display-none-mobile {
     display: none;
   }
 }
 
 @media (min-width: 769px) {
-  .display-none-mobile {
+  .display-none-pc {
     display: none;
   }
 }
