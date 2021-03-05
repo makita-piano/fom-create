@@ -34,12 +34,27 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      'Noto+Sans+JP': true,
+      'Sofia': true,
+      'Shippori+Mincho': true
+    },
+    display: 'swap'
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag'
   ],
+
+  'google-gtag': {
+    id: 'G-LJQ1CYKTLQ',
+  },
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://fom-create.com'

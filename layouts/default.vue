@@ -5,8 +5,16 @@
 </template>
 
 <style>
+/* gridlex */
+[class*="grid-"], [class^="grid"] {
+    margin: 0;
+}
+[class*="col-"], [class^="col"] {
+    padding: 0;
+}
+
 html {
-  font-family: din-2014,sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -14,7 +22,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1px
 }
 
@@ -65,5 +73,17 @@ a {
 
 a:visited {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .display-none-pc {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .display-none-mobile {
+    display: none;
+  }
 }
 </style>
