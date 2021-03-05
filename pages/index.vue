@@ -10,7 +10,7 @@
       <span class="moji-header">かけら</span><br class="display-none-pc">
       <span style="font-size: 2.5rem;">を</span><span style="font-size: 3rem;">かたちに</span>
     </p>
-    <hr class="display-none-mobile" style="border-bottom: .2rem solid white;position: absolute;bottom: 2.5rem;width: 19vw;right: 48rem;height: 1rem;border-bottom: .2rem solid white;border-bottom: .2rem solid white;"></div>
+    <hr class="display-none-mobile" style="border-bottom: .2rem solid white;position: absolute;bottom: 3rem;width: 19vw;right: 48rem;height: 1rem;border-bottom: .2rem solid white;border-bottom: .2rem solid white;"></div>
     <div class="grid-center col-12" style="max-width: 768px;padding: 0 .5rem;background: white">
       <div class="grid-center col-12" >
         <h2 class="col-12">FoMクリエイトとは</h2>
