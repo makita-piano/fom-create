@@ -4,17 +4,17 @@
       <h1>Fragments of Memories Create</h1>
     </div>
     <div style="position: relative;justify-content: flex-end;align-items: flex-end;display: flex;flex-wrap: wrap;overflow: hidden;z-index: 2;background: url(sample2.png) left top / cover no-repeat;height: 70vh;width: 100%;opacity: 60%;">
-    <p class="memory" style="color: white;font-weight: 400;font-family: Shippori Mincho, serif;text-align: center;line-height: 1.5;font-size: 6rem">
+    <p class="memory" style="color: white;font-weight: 400;font-family: Shippori Mincho, serif;text-align: center;line-height: 1.5">
       <span class="moji-header">記憶</span>
       <span style="font-size: 2.5rem;">の</span>
       <span class="moji-header">かけら</span><br class="display-none-pc">
       <span style="font-size: 2.5rem;">を</span><span style="font-size: 3rem;">かたちに</span>
     </p>
-    <hr class="display-none-mobile" style="border-bottom: .2rem solid white;position: absolute;bottom: 3rem;width: 19vw;right: 48rem;height: 1rem;border-bottom: .2rem solid white;border-bottom: .2rem solid white;"></div>
+    <hr class="display-none-mobile" style="border-bottom: .2rem solid white;position: absolute;bottom: 2.5rem;width: 19vw;right: 45rem;height: 1rem;border-bottom: .2rem solid white;border-bottom: .2rem solid white;"></div>
     <div class="grid-center col-12" style="max-width: 768px;padding: 0 .5rem;background: white">
       <div class="grid-center col-12" >
         <h2 class="col-12">FoMクリエイトとは</h2>
-        <div class="col-12" style="padding: 0 2rem;max-width: 768px">
+        <div class="col-12" style="padding: 0 .5rem;max-width: 768px;font-size: 1.2rem">
           <p>「Fragments of Memories Create」の略。関東を中心に、クラシックの演奏会や発表会、あるいは講演などを収録・編集いたします。ピアノ演奏や作編曲をはじめ、自身も音楽への造詣が深い岩本健吾が「大切な記憶をかたちにしたい」という一心で主宰する事業です。</p>
         </div>
       </div>
@@ -124,7 +124,7 @@
       </div>
       <div class="grid-center col-12" >
         <h2 class="col-12">料金プラン</h2>
-        <div class="col-12" style="padding: 0 2rem;max-width: 768px">
+        <div class="col-12" style="padding: 0 .5rem;max-width: 768px;font-size: 1.2rem">
           <p>料金プランの部分
 
 
@@ -154,7 +154,7 @@ FoMクリエイトでは、
 ＜制作＞…納品の形態（データ・DVD・Blu-Ray）により、それぞれの制作費を計算します。</p>
         </div>
       </div>
-            <div class="grid-center col-12">
+      <div class="grid-center col-12" style="margin-bottom: 3rem">
         <h2 class="col-12">Profile</h2>
         <fade-in>
           <section>
@@ -172,7 +172,7 @@ FoMクリエイトでは、
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" class="svg replaced-svg"><g transform="translate(0 0)"><path d="M-2505-5135a13.906,13.906,0,0,1-9.9-4.1,13.908,13.908,0,0,1-4.1-9.9,13.91,13.91,0,0,1,4.1-9.9,13.907,13.907,0,0,1,9.9-4.1,13.909,13.909,0,0,1,9.9,4.1,13.908,13.908,0,0,1,4.1,9.9,13.906,13.906,0,0,1-4.1,9.9A13.908,13.908,0,0,1-2505-5135Zm-2.073-14.026v8.433h3.178v-8.433h2.6l.5-3.146h-3.106v-.969a1.037,1.037,0,0,1,1-1.115h2.174v-3.212h-2.557v.012a3.859,3.859,0,0,0-3.034,1.195,3.961,3.961,0,0,0-.754,2.485h-.006v1.6h-2.109v3.146Z" transform="translate(2519 5163)" fill="#444"></path></g></svg>
                 </a>
               </div>
-              <div class="grid col-12" style="padding: 0 2rem">
+              <div class="grid col-12" style="padding: 0 .5rem;font-size: 1.2rem">
 東京音楽大学大学院音楽研究科器楽専攻鍵盤楽器研究領域（伴奏）修了。島村楽器ミュージックサロン南行徳ピアノ講師。
 
 ピアニスト・作編曲家として演奏や教育活動をする傍ら、一般社団法人全日本ピアノ指導者協会（ピティナ）にて2015年より5年間半、ゼロから動画収録・編集の業務に携わる。自身の音楽スキルを存分に活かすことが可能な動画制作への好奇心が溢れ、2020年12月17日に「FoMクリエイト」を起業。国内外で活躍する著名なアーティストの収録も数多くおこなっている。</div>
@@ -187,7 +187,7 @@ FoMクリエイトでは、
               鴨田音楽教室様
               <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
             </div>
-            <div class="modal-content">
+            <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
                 <div class="col-12 youtube-iframe">
                   <div style="position: relative; padding-bottom: 56.25%;">
@@ -201,7 +201,7 @@ FoMクリエイトでは、
                     </iframe>
                   </div>
                 </div>
-                <div class="col-12" style="overflow-y: auto;max-height: 50vh;">
+                <div class="col-12">
                   <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
                     <tbody>
                       <tr>
@@ -433,6 +433,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .memory {
+    margin: 0 auto;
+  }
   .moji-header {
     font-size: 3.6rem;
   }
