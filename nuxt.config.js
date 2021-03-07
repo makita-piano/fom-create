@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'fom-create',
@@ -10,7 +11,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'FoMクリエイト' },
       { hid: 'og:description', property: 'og:description', content: 'FoMクリエイトは東京・埼玉を拠点に、演奏動画の収録・制作を行っています。ピアノ・クラシックのほか、お教室の発表会やプロモーション動画など広範囲に制作いたします。' },
-      { hid: 'og:image', property: 'og:image', content: 'https://fom-create.com/fom.png' }
+      { hid: 'og:image', property: 'og:image', content: '/fom.png' }
     ],
     link: [
       {
@@ -27,7 +28,6 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

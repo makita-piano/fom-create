@@ -7,6 +7,16 @@
 }
 
 /* common */
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  background: #f0ebeb;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -69,7 +79,7 @@ img {
   flex-wrap: wrap;
   height: 70vh;
   justify-content: flex-end;
-  opacity: 60%;
+  opacity: .6;
   overflow: hidden;
   position: relative;
   width: 100%;
