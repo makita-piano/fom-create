@@ -22,6 +22,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '@/assets/common.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -53,7 +54,7 @@ export default {
   ],
 
   'google-gtag': {
-    id: 'G-LJQ1CYKTLQ',
+    id: 'G-G2K66HM9P5',
   },
   sitemap: {
     path: '/sitemap.xml',
