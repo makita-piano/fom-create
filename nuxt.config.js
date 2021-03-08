@@ -15,7 +15,7 @@ export default {
     ],
     link: [
       {
-        rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css"
+        rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css", async: true, defer: true
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]

@@ -21,6 +21,33 @@
         </div>
       </div>
       <div>
+      <div>
+        <h2>制作例</h2>
+        <fade-in>
+          <section>
+            <div class="grid col-12">
+              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
+                <div class="grid col-12" style="position: relative">
+                  <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+                </div>
+                <span style="padding-left: 1rem;text-decoration: underline">鴨田音楽教室様</span>
+              </div>
+              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
+                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+                <span style="padding-left: 1rem">あああ様</span>
+              </div>
+              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
+                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+                <span style="padding-left: 1rem">あああ様</span>
+              </div>
+              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
+                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
+                <span style="padding-left: 1rem">あああ様</span>
+              </div>
+            </div>
+          </section>
+        </fade-in>
+      </div>
         <h2>ご依頼のながれ</h2>
         <div class="grid">
           <div class="grid-center col-12">
@@ -96,33 +123,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <h2>制作例</h2>
-        <fade-in>
-          <section>
-            <div class="grid col-12">
-              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
-                <div class="grid col-12" style="position: relative">
-                  <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-                </div>
-                <span style="padding-left: 1rem;text-decoration: underline">鴨田音楽教室様</span>
-              </div>
-              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
-                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-                <span style="padding-left: 1rem">あああ様</span>
-              </div>
-              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
-                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-                <span style="padding-left: 1rem">あああ様</span>
-              </div>
-              <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
-                <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-                <span style="padding-left: 1rem">あああ様</span>
-              </div>
-            </div>
-          </section>
-        </fade-in>
       </div>
       <div class="grid-center col-12" >
         <h2 class="col-12">料金プラン</h2>
