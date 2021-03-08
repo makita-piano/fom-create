@@ -2,8 +2,8 @@
   <div class="grid-center">
     <header class="col-12">
       <h1>Fragments of Memories Create</h1>
-        <div class="top-img" style="">
-        <p class="top-img-txt" style="">
+        <div class="top-img">
+        <p class="top-img-txt">
           <span class="top-img-txt-big">記憶</span>
           <span class="top-img-txt-small">の</span>
           <span class="top-img-txt-big">かけら</span><br class="display-none-pc">
@@ -13,92 +13,92 @@
       </div>
     </header>
 
-    <div class="grid-center col-12" style="max-width: 768px;padding: 0 .5rem;background: white">
-      <div class="grid-center col-12" >
-        <h2 class="col-12">FoMクリエイトとは</h2>
-        <div class="col-12" style="padding: 0 .5rem;max-width: 768px;font-size: 1.2rem">
+    <div class="grid-center col-12 main-div">
+      <div>
+        <h2>FoMクリエイトとは</h2>
+        <div class="about-div">
           <p>「Fragments of Memories Create」の略。関東を中心に、クラシックの演奏会や発表会、あるいは講演などを収録・編集いたします。ピアノ演奏や作編曲をはじめ、自身も音楽への造詣が深い岩本健吾が「大切な記憶をかたちにしたい」という一心で主宰する事業です。</p>
         </div>
       </div>
-      <div class="grid-center col-12" >
-        <h2 class="col-12">ご依頼のながれ</h2>
-        <div class="grid col-12">
+      <div>
+        <h2>ご依頼のながれ</h2>
+        <div class="grid">
           <div class="grid-center col-12">
-            <div class="grid col-8_sm-12" style="padding: 1rem">
-              <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-                <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                  <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span>01&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">お問い合わせ</span></span></p>
+            <div class="col-8_sm-12 flow-div">
+              <div class="flow-div-div">
+                <div class="flow-div-div-div-header">
+                  <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
                 </div>
-                <div class="col-12" style="padding: 1rem;height: 7rem">
-                  iwamoto@fom-create.com<br>こちらのメールアドレスへお気軽にお問い合わせください。
+                <div class="flow-div-div-div-contents">
+                  <p>iwamoto@fom-create.com<br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">02&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">内容確認</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">02&nbsp-&nbsp<span class="flow-span">内容確認</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 ご希望の日時・場所・内容・納品形態（データのみ、DVD, Blu-Ray）・納期など、お伺いいたします。
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">03&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">お見積り</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">03&nbsp-&nbsp<span class="flow-span">お見積り</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 「料金プラン」にそって、お見積りいたします。
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">04&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">契約</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">04&nbsp-&nbsp<span class="flow-span">契約</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 お見積り内容に問題がなければ契約完了となります。
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">05&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">収録</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">05&nbsp-&nbsp<span class="flow-span">収録</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 イベント当日、収録にうかがいます。
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">06&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">納品</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">06&nbsp-&nbsp<span class="flow-span">納品</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 収録後は、適宜やり取りをしながら編集を進め、期日までに納品します。
               </div>
             </div>
           </div>
-          <div class="grid col-6_sm-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center;height: 3rem">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;">07&nbsp-&nbsp<span style="font-size: 1.2rem;vertical-align: 8%">お支払い</span></p>
+          <div class="col-6_sm-12 flow-div">
+            <div class="flow-div-div">
+              <div class="flow-div-div-div-header">
+                <p class="flow-p">07&nbsp-&nbsp<span class="flow-span">お支払い</span></p>
               </div>
-              <div class="col-12" style="padding: 1rem;height: 7rem">
+              <div class="flow-div-div-div-contents">
                 納品完了後、代金を所定の口座にお振込みいただきます。
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="grid col-12">
-        <h2 class="col-12">制作例</h2>
+      <div>
+        <h2>制作例</h2>
         <fade-in>
           <section>
             <div class="grid col-12">
@@ -110,15 +110,15 @@
               </div>
               <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
                 <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-      <span style="padding-left: 1rem">あああ様</span>
+                <span style="padding-left: 1rem">あああ様</span>
               </div>
               <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
                 <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-      <span style="padding-left: 1rem">あああ様</span>
+                <span style="padding-left: 1rem">あああ様</span>
               </div>
               <div class="grid col-4_sm-12" style="margin-bottom: 2rem;cursor: pointer" @click="openModal">
                 <img src="~assets/sample.png" width="100%" style="padding: 0 1rem" alt="piano">
-      <span style="padding-left: 1rem">あああ様</span>
+                <span style="padding-left: 1rem">あああ様</span>
               </div>
             </div>
           </section>
@@ -131,14 +131,14 @@
             FoMクリエイトでは、
           </div>
           <div class="col-12">
-            ＜収録＞＜編集＞＜制作＞
+            <p class="price" style="color: #36C190">収録<span style="color: #333">・</span>編集<span style="color: #333">・</span>制作</p>
           </div>
           <div class="col-12">
             という3つの部分ごとに料金を計算しております。
           </div>
           <div class="grid col-12" style="padding: 1rem">
             <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center">
+              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
                 <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">収録</span></p>
               </div>
               <div class="grid col-12" style="padding: 1rem">
@@ -155,7 +155,7 @@
           </div>
           <div class="grid col-12" style="padding: 1rem">
             <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center">
+              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
                 <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">編集</span></p>
               </div>
               <div class="col-12" style="padding: 1rem">
@@ -165,7 +165,7 @@
           </div>
           <div class="grid col-12" style="padding: 1rem">
             <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #ccc;text-align: center">
+              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
                 <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">制作</span></p>
               </div>
               <div class="col-12" style="padding: 1rem">
@@ -202,11 +202,11 @@
         </fade-in>
       </div>
       <transition name="modal" appear v-if="modal">
-        <div class="modal modal-overlay" @click="closeModal" style="color: #333">
-          <div class="modal-window" style="height: 90vh">
+        <div class="modal modal-overlay" @click="closeModal">
+          <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
               鴨田音楽教室様
-              <button @click="closeModal" style="position: absolute;right: 1rem;top: .8rem;height: 1.5rem;width: 1.5rem">×</button>
+              <button @click="closeModal" style="position: absolute;right: 1rem;top: .5rem;height: 1.8rem;width: 1.8rem;padding: .05rem 0 0 0">×</button>
             </div>
             <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
@@ -229,7 +229,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           収録代(拘束6時間)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥12,000
                         </td>
                       </tr>
@@ -237,7 +237,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           機材プラン(カメラx2 , ステレオx2)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥0
                         </td>
                       </tr>
@@ -245,7 +245,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           総編集費用(￥6,000/30分 x 180分)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥36,000
                         </td>
                       </tr>
@@ -253,7 +253,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           DVD制作(19セット)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥16,720
                         </td>
                       </tr>
@@ -261,7 +261,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           ほか(交通費など)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥2,545
                         </td>
                       </tr>
@@ -269,7 +269,7 @@
                         <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
                           合計料金(税込)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
                           ￥67,265
                         </td>
                       </tr>
@@ -288,6 +288,16 @@
 <script>
   import FadeIn from '../components/FadeIn'
   export default {
+    head() {
+      return {
+        meta: [
+          { hid: 'og:url', property: 'og:url', content: 'https://fom-create.com' },
+        ],
+        link: [
+          { rel: 'canonical', href: 'https://fom-create.com' }
+        ]
+      }
+    },
     data() {
       return {
         modal: false,
