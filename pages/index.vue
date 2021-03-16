@@ -21,7 +21,7 @@
         </div>
       </div>
       <div>
-      <div>
+      <div id="example" style="padding-top: 1rem">
         <h2>制作例</h2>
         <fade-in>
           <section>
@@ -172,6 +172,9 @@
                 納品の形態（データ・DVD・Blu-Ray）により、それぞれの制作費を計算します。
               </div>
             </div>
+          </div>
+          <div class="col-12">
+            詳しくは<a href="#example">制作例</a>をクリックください。
           </div>
         </div>
       </div>
