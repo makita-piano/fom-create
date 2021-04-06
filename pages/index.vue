@@ -20,7 +20,6 @@
           <p>「Fragments of Memories Create」の略。関東を中心に、クラシックの演奏会や発表会、あるいは講演などを収録・編集いたします。ピアノ演奏や作編曲をはじめ、自身も音楽への造詣が深い岩本健吾が「大切な記憶をかたちにしたい」という一心で主宰する事業です。</p>
         </div>
       </div>
-      <div>
       <div id="example" style="padding-top: 1rem">
         <h2>制作例</h2>
         <fade-in>
@@ -48,135 +47,144 @@
           </section>
         </fade-in>
       </div>
+      <div>
         <h2>ご依頼のながれ</h2>
-        <div class="grid">
-          <div class="grid-center col-12">
-            <div class="col-8_sm-12 flow-div">
-              <div class="flow-div-div">
-                <div class="flow-div-div-div-header">
-                  <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
+        <fade-in>
+          <section>
+            <div class="grid">
+              <div class="grid-center col-12">
+                <div class="col-8_sm-12 flow-div">
+                  <div class="flow-div-div">
+                    <div class="flow-div-div-div-header">
+                      <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
+                    </div>
+                    <div class="flow-div-div-div-contents">
+                      <p><span style="text-decoration: underline" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="flow-div-div-div-contents">
-                  <p><span style="text-decoration: underline;cursor: pointer" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">02&nbsp-&nbsp<span class="flow-span">内容確認</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    ご希望の日時・場所・内容・納品形態（データのみ、DVD, Blu-Ray）・納期など、お伺いいたします。
+                  </div>
+                </div>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">03&nbsp-&nbsp<span class="flow-span">お見積り</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    「料金プラン」にそって、お見積りいたします。
+                  </div>
+                </div>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">04&nbsp-&nbsp<span class="flow-span">契約</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    お見積り内容に問題がなければ契約完了となります。
+                  </div>
+                </div>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">05&nbsp-&nbsp<span class="flow-span">収録</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    イベント当日、収録にうかがいます。
+                  </div>
+                </div>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">06&nbsp-&nbsp<span class="flow-span">納品</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    収録後は、適宜やり取りをしながら編集を進め、期日までに納品します。
+                  </div>
+                </div>
+              </div>
+              <div class="col-6_sm-12 flow-div">
+                <div class="flow-div-div">
+                  <div class="flow-div-div-div-header">
+                    <p class="flow-p">07&nbsp-&nbsp<span class="flow-span">お支払い</span></p>
+                  </div>
+                  <div class="flow-div-div-div-contents">
+                    納品完了後、代金を所定の口座にお振込みいただきます。
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">02&nbsp-&nbsp<span class="flow-span">内容確認</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                ご希望の日時・場所・内容・納品形態（データのみ、DVD, Blu-Ray）・納期など、お伺いいたします。
-              </div>
-            </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">03&nbsp-&nbsp<span class="flow-span">お見積り</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                「料金プラン」にそって、お見積りいたします。
-              </div>
-            </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">04&nbsp-&nbsp<span class="flow-span">契約</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                お見積り内容に問題がなければ契約完了となります。
-              </div>
-            </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">05&nbsp-&nbsp<span class="flow-span">収録</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                イベント当日、収録にうかがいます。
-              </div>
-            </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">06&nbsp-&nbsp<span class="flow-span">納品</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                収録後は、適宜やり取りをしながら編集を進め、期日までに納品します。
-              </div>
-            </div>
-          </div>
-          <div class="col-6_sm-12 flow-div">
-            <div class="flow-div-div">
-              <div class="flow-div-div-div-header">
-                <p class="flow-p">07&nbsp-&nbsp<span class="flow-span">お支払い</span></p>
-              </div>
-              <div class="flow-div-div-div-contents">
-                納品完了後、代金を所定の口座にお振込みいただきます。
-              </div>
-            </div>
-          </div>
-        </div>
+          </section>
+        </fade-in>
       </div>
-      <div class="grid-center col-12" >
+      <div class="grid-center col-12">
         <h2 class="col-12">料金プラン</h2>
-        <div class="grid col-12" style="padding: 0 .5rem;max-width: 768px;font-size: 1.2rem">
-          <div class="col-12">
-            FoMクリエイトでは、
-          </div>
-          <div class="col-12">
-            <p class="price" style="color: #36C190">収録<span style="color: #333">・</span>編集<span style="color: #333">・</span>制作</p>
-          </div>
-          <div class="col-12">
-            という3つの部分ごとに料金を計算しております。
-          </div>
-          <div class="grid col-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">収録</span></p>
+        <fade-in>
+          <section>
+            <div class="grid col-12" style="padding: 0 .5rem;max-width: 768px;font-size: 1.2rem">
+              <div class="col-12">
+                FoMクリエイトでは、
+              </div>
+              <div class="col-12">
+                <p class="price" style="color: #36C190">収録<span style="color: #333">・</span>編集<span style="color: #333">・</span>制作</p>
+              </div>
+              <div class="col-12">
+                という3つの部分ごとに料金を計算しております。
               </div>
               <div class="grid col-12" style="padding: 1rem">
-                <div class="col-12">
-                  以下の3点より、収録費を算出します。
+                <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
+                  <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
+                    <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">収録</span></p>
+                  </div>
+                  <div class="grid col-12" style="padding: 1rem">
+                    <div class="col-12">
+                      以下の3点より、収録費を算出します。
+                    </div>
+                    <div class="col-12" style="margin: .5rem 0">
+                      ・拘束時間<br>
+                      ・交通経費<br>
+                      ・機材プラン<br>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-12" style="margin: .5rem 0">
-                  ・拘束時間<br>
-                  ・交通経費<br>
-                  ・機材プラン<br>
+              </div>
+              <div class="grid col-12" style="padding: 1rem">
+                <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
+                  <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
+                    <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">編集</span></p>
+                  </div>
+                  <div class="col-12" style="padding: 1rem">
+                    編集を施す部分の総時間（≒演奏時間）に対して、編集費としての料金を計算します。
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="grid col-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">編集</span></p>
+              <div class="grid col-12" style="padding: 1rem">
+                <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
+                  <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
+                    <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">制作</span></p>
+                  </div>
+                  <div class="col-12" style="padding: 1rem">
+                    納品の形態（データ・DVD・Blu-Ray）により、それぞれの制作費を計算します。
+                  </div>
+                </div>
               </div>
-              <div class="col-12" style="padding: 1rem">
-                編集を施す部分の総時間（≒演奏時間）に対して、編集費としての料金を計算します。
-              </div>
-            </div>
-          </div>
-          <div class="grid col-12" style="padding: 1rem">
-            <div class="grid col-12" style="box-shadow: 0 2px 5px #ccc;border-radius: 5px;">
-              <div class="col-12" style="border-radius: 5px 5px 0 0;background: #CEE8E4;text-align: center">
-                <p style="margin-left: 1rem;font-size: 2rem;line-height: 3rem;"><span style="font-size: 2rem">制作</span></p>
-              </div>
-              <div class="col-12" style="padding: 1rem">
-                納品の形態（データ・DVD・Blu-Ray）により、それぞれの制作費を計算します。
+              <div class="col-12">
+                詳しくは<a href="#example">制作例</a>をクリックください。
               </div>
             </div>
-          </div>
-          <div class="col-12">
-            詳しくは<a href="#example">制作例</a>をクリックください。
-          </div>
-        </div>
+          </section>
+        </fade-in>
       </div>
       <div class="grid-center col-12" style="margin-bottom: 3rem">
         <h2 class="col-12">プロフィール</h2>
@@ -197,8 +205,8 @@
                 </a>
               </div>
               <div class="grid col-12" style="padding: 0 .5rem;font-size: 1.2rem">
-東京音楽大学大学院音楽研究科器楽専攻鍵盤楽器研究領域（伴奏）修了。島村楽器ミュージックサロン南行徳ピアノ講師。
-ピアニスト・作編曲家として演奏や教育活動をする傍ら、一般社団法人全日本ピアノ指導者協会（ピティナ）にて2015年より5年間半、ゼロから動画収録・編集の業務に携わる。自身の音楽スキルを存分に活かすことが可能な動画制作への好奇心が溢れ、2020年12月17日に「FoMクリエイト」を起業。国内外で活躍する著名なアーティストの収録も数多くおこなっている。</div>
+                東京音楽大学大学院音楽研究科器楽専攻鍵盤楽器研究領域（伴奏）修了。島村楽器ミュージックサロン南行徳ピアノ講師。
+                ピアニスト・作編曲家として演奏や教育活動をする傍ら、一般社団法人全日本ピアノ指導者協会（ピティナ）にて2015年より5年間半、ゼロから動画収録・編集の業務に携わる。自身の音楽スキルを存分に活かすことが可能な動画制作への好奇心が溢れ、2020年12月17日に「FoMクリエイト」を起業。国内外で活躍する著名なアーティストの収録も数多くおこなっている。</div>
             </div>
           </section>
         </fade-in>
@@ -208,7 +216,7 @@
           <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
               鴨田音楽教室様
-              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555;cursor: pointer">×</button>
+              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555">×</button>
             </div>
             <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
