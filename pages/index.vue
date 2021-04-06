@@ -57,7 +57,7 @@
                   <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
                 </div>
                 <div class="flow-div-div-div-contents">
-                  <p><span style="text-decoration: underline" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+                  <p><span style="text-decoration: underline;cursor: pointer" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
                 </div>
               </div>
             </div>
@@ -208,7 +208,7 @@
           <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
               鴨田音楽教室様
-              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555">×</button>
+              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555;cursor: pointer">×</button>
             </div>
             <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
