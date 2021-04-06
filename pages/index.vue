@@ -57,7 +57,7 @@
                   <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
                 </div>
                 <div class="flow-div-div-div-contents">
-                  <p>iwamoto@fom-create.com<br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+                  <p><span style="text-decoration: underline" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
                 </div>
               </div>
             </div>
@@ -198,7 +198,6 @@
               </div>
               <div class="grid col-12" style="padding: 0 .5rem;font-size: 1.2rem">
 東京音楽大学大学院音楽研究科器楽専攻鍵盤楽器研究領域（伴奏）修了。島村楽器ミュージックサロン南行徳ピアノ講師。
-
 ピアニスト・作編曲家として演奏や教育活動をする傍ら、一般社団法人全日本ピアノ指導者協会（ピティナ）にて2015年より5年間半、ゼロから動画収録・編集の業務に携わる。自身の音楽スキルを存分に活かすことが可能な動画制作への好奇心が溢れ、2020年12月17日に「FoMクリエイト」を起業。国内外で活躍する著名なアーティストの収録も数多くおこなっている。</div>
             </div>
           </section>
@@ -209,7 +208,7 @@
           <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
               鴨田音楽教室様
-              <button @click="closeModal" style="position: absolute;right: 1rem;top: .5rem;height: 1.8rem;width: 1.8rem;padding: .05rem 0 0 0">×</button>
+              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555">×</button>
             </div>
             <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
@@ -269,10 +268,10 @@
                         </td>
                       </tr>
                       <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;background-color: #eee">
                           合計料金(税込)
                         </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right;background-color: #eee">
                           ￥67,265
                         </td>
                       </tr>
@@ -290,6 +289,7 @@
 
 <script>
   import FadeIn from '../components/FadeIn'
+
   export default {
     head() {
       return {
@@ -303,7 +303,7 @@
     },
     data() {
       return {
-        modal: false,
+        modal: false
       }
     },
     methods: {
@@ -312,6 +312,23 @@
       },
       closeModal() {
         this.modal = false
+      },
+      witeToClipboard() {
+        const copyText = this.$el.querySelector('#email').textContent
+        if(navigator.clipboard){
+          navigator.clipboard
+            .writeText(copyText)
+            .then(() => {
+              swal({
+                title: "",
+                text: "メールアドレスをコピーしました！",
+                icon: "success",
+            　});
+            })
+            .catch(e => {
+              console.error(e)
+            })
+        }
       }
     },
     components: {
