@@ -14,7 +14,7 @@
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
-  },
-  "devDependencies": {}
+    "nuxt": "^2.14.6",
+    "sweetalert": "^2.1.2"
+  }
 }

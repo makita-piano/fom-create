@@ -17,10 +17,7 @@ export default {
       {
         rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css", async: true, defer: true
       },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: "javascript", href: "https://unpkg.com/sweetalert/dist/sweetalert.min.js", async: true, defer: true
-      },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
