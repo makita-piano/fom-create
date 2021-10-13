@@ -387,7 +387,7 @@ img {
 
 .top-img {
   align-items: center;
-  background: url(~@/assets/_MG_2128.JPG) center top / cover no-repeat;
+  background: url(/_MG_2128.JPG) center top / cover no-repeat;
   display: flex;
   flex-wrap: wrap;
   height: 70vh;
