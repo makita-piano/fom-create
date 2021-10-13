@@ -20,7 +20,7 @@
           <p>「Fragments of Memories Create」の略。関東を中心に、クラシックの演奏会や発表会、あるいは講演などを収録・編集いたします。ピアノ演奏や作編曲をはじめ、自身も音楽への造詣が深い岩本健吾が「大切な記憶をかたちにしたい」という一心で主宰する事業です。</p>
         </div>
       </div>
-      <div id="example" style="padding-top: 1rem">
+      <!--<div id="example" style="padding-top: 1rem">
         <h2>制作例</h2>
         <fade-in>
           <section>
@@ -46,7 +46,7 @@
             </div>
           </section>
         </fade-in>
-      </div>
+      </div>-->
       <div>
         <h2>ご依頼のながれ</h2>
         <fade-in>
@@ -56,10 +56,10 @@
                 <div class="col-8_sm-12 flow-div">
                   <div class="flow-div-div">
                     <div class="flow-div-div-div-header">
-                      <p class="flow-p">01&nbsp-&nbsp<span class="flow-span">お問い合わせ</span></p>
+                      <p class="flow-p">01&nbsp;-&nbsp;<span class="flow-span">お問い合わせ</span></p>
                     </div>
                     <div class="flow-div-div-div-contents">
-                      <p><span style="text-decoration: underline" @click="witeToClipboard()" id="email">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+                      <p><span style="text-decoration: underline">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
                     </div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">02&nbsp-&nbsp<span class="flow-span">内容確認</span></p>
+                    <p class="flow-p">02&nbsp;-&nbsp;<span class="flow-span">内容確認</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     ご希望の日時・場所・内容・納品形態（データのみ、DVD, Blu-Ray）・納期など、お伺いいたします。
@@ -77,7 +77,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">03&nbsp-&nbsp<span class="flow-span">お見積り</span></p>
+                    <p class="flow-p">03&nbsp;-&nbsp;<span class="flow-span">お見積り</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     「料金プラン」にそって、お見積りいたします。
@@ -87,7 +87,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">04&nbsp-&nbsp<span class="flow-span">契約</span></p>
+                    <p class="flow-p">04&nbsp;-&nbsp;<span class="flow-span">契約</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     お見積り内容に問題がなければ契約完了となります。
@@ -97,7 +97,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">05&nbsp-&nbsp<span class="flow-span">収録</span></p>
+                    <p class="flow-p">05&nbsp;-&nbsp;<span class="flow-span">収録</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     イベント当日、収録にうかがいます。
@@ -107,7 +107,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">06&nbsp-&nbsp<span class="flow-span">納品</span></p>
+                    <p class="flow-p">06&nbsp;-&nbsp;<span class="flow-span">納品</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     収録後は、適宜やり取りをしながら編集を進め、期日までに納品します。
@@ -117,7 +117,7 @@
               <div class="col-6_sm-12 flow-div">
                 <div class="flow-div-div">
                   <div class="flow-div-div-div-header">
-                    <p class="flow-p">07&nbsp-&nbsp<span class="flow-span">お支払い</span></p>
+                    <p class="flow-p">07&nbsp;-&nbsp;<span class="flow-span">お支払い</span></p>
                   </div>
                   <div class="flow-div-div-div-contents">
                     納品完了後、代金を所定の口座にお振込みいただきます。
@@ -179,9 +179,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12">
+              <!--<div class="col-12">
                 詳しくは<a href="#example">制作例</a>をクリックください。
-              </div>
+              </div>-->
             </div>
           </section>
         </fade-in>
@@ -194,7 +194,7 @@
               <div class="grid col-12">
                 <div class="grid col-12" style="margin: auto;text-align: center">
                   <div class="col-12">
-                    <img src="~assets/iwamoto.png" width="100%" style="width:8rem;border-radius: 50%;height: 8rem" alt="iwamoto">
+                    <img src="~assets/profile.jpeg" width="100%" style="width:8rem;border-radius: 50%;height: 8rem" alt="iwamoto">
                   </div>
                   <div class="col-12">岩本　健吾</div>
                 </div>
@@ -211,7 +211,7 @@
           </section>
         </fade-in>
       </div>
-      <transition name="modal" appear v-if="modal">
+      <!--<transition name="modal" appear v-if="modal">
         <div class="modal modal-overlay" @click="closeModal">
           <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
@@ -290,7 +290,7 @@
             </div>
           </div>
         </div>
-      </transition>
+      </transition>-->
     </div>
   </div>
 </template>
@@ -345,3 +345,348 @@
     }
   }
 </script>
+
+<style scoped>
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* , *::before , *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1rem 0;
+  text-align: center;
+  margin: 0;
+}
+
+#content h2 {
+  background: #6bb6ff;
+  border-bottom: .3rem solid #2281C6;
+  color: white;
+  margin: 3rem 0 1rem 0;
+  padding: .9rem 0 0 .5rem;
+}
+
+hr {
+  border: none;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.top-img {
+  align-items: center;
+  background: url(~@/assets/_MG_2128.JPG) center top / cover no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  justify-content: flex-end;
+  opacity: .8;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.top-img-txt-big {
+  font-size: 3rem;
+}
+.top-img-txt-small {
+  font-size: 2rem;
+}
+.top-img-hr {
+  border-bottom: .2rem solid white;
+  bottom: 2.5rem;
+  height: 1rem;
+  position: absolute;
+  right: 40rem;
+  width: 19vw;
+}
+
+#content .main-div {
+  max-width: 768px;
+  padding: 0 .5rem;
+  background: white;
+}
+
+.about-div {
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+#content .flow-div {
+  padding: 1rem;
+}
+
+.flow-div-div {
+  box-shadow: 0 .3rem .6rem #ccc;
+  border-radius: .5rem;
+}
+
+.flow-div-div-div-header {
+  border-radius: 5px 5px 0 0;
+  background: #CEE8E4;
+  text-align: center;
+  height: 3rem;
+}
+
+.flow-div-div-div-contents {
+  padding: 1rem;
+  height: 7rem;
+}
+
+
+.flow-p {
+  margin-left: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.flow-span {
+  font-size: 1.2rem;
+  vertical-align: 8%;
+}
+
+.ul-flow {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.ul-flow > li {
+  position: relative;
+  width: 250px;
+}
+
+.div-flow::before {
+  background-color: #FFF;
+  bottom: 0;
+  content: '';
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: .5s ease;
+  width: 100%;
+}
+
+.div-flow {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.span-flow {
+  display: block;
+  letter-spacing: .2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.em-flow {
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0 auto 5px;
+  opacity: 1;
+  text-align: center;
+  transform: translate(0,0);
+  transition-delay: .4s;
+}
+
+.modal-overlay {
+  align-items: center;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 5vh 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 30;
+}
+
+.modal-window {
+  background: #FFF;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+
+.modal-content {
+  padding: .5rem 1rem;
+}
+
+.modal-header {
+  background: #CEE8E4;
+  padding: 10px;
+  text-align: left;
+}
+
+.modal-enter-active , .modal-leave-active {
+  transition: opacity .4s;
+}
+
+.modal-enter-active .modal-window {
+  transition: opacity .4s, transform .4s;
+}
+
+.modal-leave-active .modal-window {
+  transition: opacity .4s, transform .4s;
+}
+
+.modal-leave-active {
+  transition: opacity .6s ease .4s;
+}
+
+.modal-enter , .modal-leave-to {
+  opacity: 0;
+}
+
+.modal-enter .modal-window {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.modal-leave-to .modal-window {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.youtube-iframe {
+  margin-bottom: .5rem;
+}
+
+.top-img-txt {
+  color: white;
+  font-family: Shippori Mincho, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .top-img-txt {
+    margin: auto auto 3rem;
+  }
+
+  [class='li-flow']:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  .li-flow {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .div-flow {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  .span-flow {
+    margin: 0 auto;
+  }
+
+  .ul-flow {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  [class='li-flow']:not(:last-child)::after {
+    bottom: -2.3em;
+    content: '∨';
+    font-size: 22px;
+    font-weight: bold;
+    height: 1em;
+    left: 0;
+    line-height: 1;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: 1em;
+  }
+}
+
+@media (min-width: 769px) {
+  .price {
+    font-size: 3rem;
+  }
+  .top-img-txt {
+    padding-right: 2rem;
+  }
+
+  .top-img-txt-big {
+    font-size: 4rem;
+  }
+
+  .top-img-txt-small {
+    font-size: 2.5rem;
+  }
+
+  .modal-window {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 1rem 3rem;
+  }
+
+  h1 {
+    letter-spacing: .5rem;
+  }
+
+  .youtube-iframe {
+    padding: 0 15%;
+  }
+
+  [class='li-flow']:not(:last-child) > div::after {
+    content: '>';
+    font-weight: bold;
+    height: 1em;
+    line-height: 1;
+    margin: auto;
+    position: absolute;
+    right: -40px;
+    top: 100%;
+  }
+  #content .main-div {
+    margin: 3rem 0;
+    border-radius: .5rem;
+  }
+  .top-img {
+    align-items: flex-end;
+  }
+  .about-div {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+
+  }
+}
+</style>
