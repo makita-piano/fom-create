@@ -11,7 +11,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:title', property: 'og:title', content: 'FoMクリエイト' },
       { hid: 'og:description', property: 'og:description', content: 'FoMクリエイトは東京・埼玉を拠点に、演奏動画の収録・制作を行っています。ピアノ・クラシックのほか、お教室の発表会やプロモーション動画など広範囲に制作いたします。' },
-      { hid: 'og:image', property: 'og:image', content: '/_MG_2128.JPG' },
+      { hid: 'og:image', property: 'og:image', content: 'https://fom-create.com/_MG_2128.JPG' },
       { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
