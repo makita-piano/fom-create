@@ -4,10 +4,11 @@
       <h1>Fragments of Memories Create</h1>
         <div class="top-img">
         <p class="top-img-txt">
-          <span class="top-img-txt-big">記憶</span>
-          <span class="top-img-txt-small">の</span>
-          <span class="top-img-txt-big">かけら</span><br class="display-none-pc">
-          <span class="top-img-txt-small">を</span><span class="top-img-txt-small">かたちに</span>
+          <span class="word top-img-txt-big">記</span><span class="word top-img-txt-big">憶</span>
+          <span class="word top-img-txt-small">の</span>
+          <span class="word top-img-txt-big">か</span><span class="word top-img-txt-big">け</span><span class="word top-img-txt-big">ら</span><br class="display-none-pc">
+          <span class="word top-img-txt-small">を</span>
+          <span class="word top-img-txt-small">か</span><span class="word top-img-txt-small">た</span><span class="word top-img-txt-small">ち</span><span class="word top-img-txt-small">に</span>
         </p>
         <hr class="top-img-hr display-none-mobile">
       </div>
@@ -322,23 +323,6 @@
       closeModal() {
         this.modal = false
       },
-      witeToClipboard() {
-        const copyText = this.$el.querySelector('#email').textContent
-        if(navigator.clipboard){
-          navigator.clipboard
-            .writeText(copyText)
-            .then(() => {
-              swal({
-                title: "",
-                text: "メールアドレスをコピーしました！",
-                icon: "success",
-            　});
-            })
-            .catch(e => {
-              console.error(e)
-            })
-        }
-      }
     },
     components: {
       FadeIn
@@ -392,7 +376,6 @@ img {
   flex-wrap: wrap;
   height: 70vh;
   justify-content: flex-end;
-  opacity: .8;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -688,5 +671,48 @@ img {
     font-size: 1.5rem;
 
   }
+}
+.word {
+  animation: word 10s infinite ease-in-out;
+}
+.word:nth-child(1) {
+  animation-delay: .1s;
+}
+.word:nth-child(2) {
+  animation-delay: .2s;
+}
+.word:nth-child(3) {
+  animation-delay: .3s;
+}
+.word:nth-child(4) {
+  animation-delay: .4s;
+}
+.word:nth-child(5) {
+  animation-delay: .5s;
+}
+.word:nth-child(6) {
+  animation-delay: .6s;
+}
+.word:nth-child(7) {
+  animation-delay: .7s;
+}
+.word:nth-child(8) {
+  animation-delay: .8s;
+}
+.word:nth-child(9) {
+  animation-delay: .9s;
+}
+.word:nth-child(10) {
+  animation-delay: 1.0s;
+}
+.word:nth-child(11) {
+  animation-delay: 1.1s;
+}
+.word:nth-child(12) {
+  animation-delay: 1.2s;
+}
+@keyframes word {
+  0%, 5%, 30%, 100% { filter: blur(0px); opacity: 1; }        
+  15%, 20% { filter: blur(1em); opacity: 0; }        
 }
 </style>
