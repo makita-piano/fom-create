@@ -21,7 +21,7 @@
           <p>「Fragments of Memories Create」の略。関東を中心に、クラシックの演奏会や発表会、あるいは講演などを収録・編集いたします。ピアノ演奏や作編曲をはじめ、自身も音楽への造詣が深い岩本健吾が「大切な記憶をかたちにしたい」という一心で主宰する事業です。</p>
         </div>
       </div>
-      <!--<div id="example" style="padding-top: 1rem">
+      <div id="example" style="padding-top: 1rem">
         <h2>制作例</h2>
         <fade-in>
           <section>
@@ -47,7 +47,7 @@
             </div>
           </section>
         </fade-in>
-      </div>-->
+      </div>
       <div>
         <h2>ご依頼のながれ</h2>
         <fade-in>
@@ -180,9 +180,117 @@
                   </div>
                 </div>
               </div>
-              <!--<div class="col-12">
-                詳しくは<a href="#example">制作例</a>をクリックください。
-              </div>-->
+              <div class="col-12" style="padding: 1rem">
+                （例）ピアノの発表会
+                <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+                  <tbody>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        収録代(拘束6時間)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥12,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        機材プラン(カメラx2 , ステレオx2)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥0
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        総編集費用(￥6,000/30分 x 180分)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥36,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        DVD制作(20セット)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥17,600
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        ほか(交通費など)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥3,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;background-color: #eee">
+                        合計料金(税込)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right;background-color: #eee">
+                        ￥68,600
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="col-12" style="padding: 1rem">
+                （例）ライブ配信
+                <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
+                  <tbody>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        収録代(拘束6時間)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥12,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        機材プラン(カメラx4 , ステレオx2)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥8,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        機材レンタル代
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥30,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        アシスタント代
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥15,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
+                        ほか(交通費など)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
+                        ￥3,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;background-color: #eee">
+                        合計料金(税込)
+                      </th>
+                      <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right;background-color: #eee">
+                        ￥68,000
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </section>
         </fade-in>
@@ -212,12 +320,12 @@
           </section>
         </fade-in>
       </div>
-      <!--<transition name="modal" appear v-if="modal">
-        <div class="modal modal-overlay" @click="closeModal">
+      <transition name="modal" appear v-if="modal">
+        <div class="modal modal-overlay">
           <div class="modal-window" style="max-height: 90vh">
             <div class="modal-header" style="position: relative">
               鴨田音楽教室様
-              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555">×</button>
+              <button @click="closeModal" style="position: absolute;right: .7rem;top: .7rem;background: none;border: none;color: #555;cursor: pointer">×</button>
             </div>
             <div class="modal-content" style="overflow-y: auto;max-height: 80vh;">
               <div class="grid col-12">
@@ -233,65 +341,11 @@
                     </iframe>
                   </div>
                 </div>
-                <div class="col-12">
-                  <table style="padding: 0 2rem;border-collapse: collapse;width: 100%">
-                    <tbody>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                          収録代(拘束6時間)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
-                          ￥12,000
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                          機材プラン(カメラx2 , ステレオx2)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
-                          ￥0
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                          総編集費用(￥6,000/30分 x 180分)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
-                          ￥36,000
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                          DVD制作(19セット)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
-                          ￥16,720
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto">
-                          ほか(交通費など)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right">
-                          ￥2,545
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;background-color: #eee">
-                          合計料金(税込)
-                        </th>
-                        <td style="border: 1px solid #000;padding: 1rem;border-collapse: collapse;width: auto;text-align: right;background-color: #eee">
-                          ￥67,265
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
               </div>
             </div>
           </div>
         </div>
-      </transition>-->
+      </transition>
     </div>
   </div>
 </template>
@@ -506,14 +560,9 @@ img {
 
 .modal-window {
   background: #FFF;
-  border-radius: 4px;
   overflow: hidden;
   width: 90%;
   margin: auto;
-}
-
-.modal-content {
-  padding: .5rem 1rem;
 }
 
 .modal-header {
@@ -550,10 +599,6 @@ img {
 .modal-leave-to .modal-window {
   opacity: 0;
   transform: translateY(-20px);
-}
-
-.youtube-iframe {
-  margin-bottom: .5rem;
 }
 
 .top-img-txt {
@@ -634,16 +679,8 @@ img {
     width: 100%;
   }
 
-  .modal-content {
-    padding: 1rem 3rem;
-  }
-
   h1 {
     letter-spacing: .5rem;
-  }
-
-  .youtube-iframe {
-    padding: 0 15%;
   }
 
   [class='li-flow']:not(:last-child) > div::after {
