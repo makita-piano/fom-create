@@ -298,7 +298,6 @@
 
 <script>
   import FadeIn from '../components/FadeIn'
-  import swal from 'sweetalert'
 
   export default {
     head() {
