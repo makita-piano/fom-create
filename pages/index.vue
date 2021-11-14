@@ -60,7 +60,7 @@
                       <p class="flow-p">01&nbsp;-&nbsp;<span class="flow-span">お問い合わせ</span></p>
                     </div>
                     <div class="flow-div-div-div-contents">
-                      <p><span style="text-decoration: underline">iwamoto@fom-create.com</span><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
+                      <p><a href="mailto:iwamoto@fom-create.com" target="_blank" rel="noopener"><span style="text-decoration: underline">iwamoto@fom-create.com</span></a><br>こちらのメールアドレスへお気軽にお問い合わせください。</p>
                     </div>
                   </div>
                 </div>
@@ -205,7 +205,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" class="svg replaced-svg"><g transform="translate(0 0)"><path d="M-2505-5135a13.906,13.906,0,0,1-9.9-4.1,13.908,13.908,0,0,1-4.1-9.9,13.91,13.91,0,0,1,4.1-9.9,13.907,13.907,0,0,1,9.9-4.1,13.909,13.909,0,0,1,9.9,4.1,13.908,13.908,0,0,1,4.1,9.9,13.906,13.906,0,0,1-4.1,9.9A13.908,13.908,0,0,1-2505-5135Zm-2.073-14.026v8.433h3.178v-8.433h2.6l.5-3.146h-3.106v-.969a1.037,1.037,0,0,1,1-1.115h2.174v-3.212h-2.557v.012a3.859,3.859,0,0,0-3.034,1.195,3.961,3.961,0,0,0-.754,2.485h-.006v1.6h-2.109v3.146Z" transform="translate(2519 5163)" fill="#444"></path></g></svg>
                 </a>
               </div>
-              <div class="grid col-12" style="padding: 0 .5rem;font-size: 1.2rem">
+              <div class="grid col-12" style="padding: 0 .5rem">
                 東京音楽大学大学院音楽研究科器楽専攻鍵盤楽器研究領域（伴奏）修了。島村楽器ミュージックサロン南行徳ピアノ講師。
                 ピアニスト・作編曲家として演奏や教育活動をする傍ら、一般社団法人全日本ピアノ指導者協会（ピティナ）にて2015年より5年間半、ゼロから動画収録・編集の業務に携わる。自身の音楽スキルを存分に活かすことが可能な動画制作への好奇心が溢れ、2020年12月17日に「FoMクリエイト」を起業。国内外で活躍する著名なアーティストの収録も数多くおこなっている。</div>
             </div>
@@ -298,6 +298,7 @@
 
 <script>
   import FadeIn from '../components/FadeIn'
+  import mailgo from "mailgo"
 
   export default {
     head() {
@@ -314,6 +315,18 @@
       return {
         modal: false
       }
+    },
+    created() {
+      const mailgo_config = {
+        tel: false,
+        sms: false,
+        dark: true,
+        actions: {
+          yahoo: false,
+          outlook: false,
+        }
+      }
+      mailgo(mailgo_config);
     },
     methods: {
       openModal() {
@@ -343,7 +356,7 @@ ul {
 
 h1 {
   font-family: 'Sofia', cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   padding: 1rem 0;
   text-align: center;
@@ -614,6 +627,9 @@ img {
 }
 
 @media (min-width: 769px) {
+  h1 {
+    font-size: 1rem;
+  }
   .price {
     font-size: 3rem;
   }
