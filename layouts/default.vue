@@ -1,5 +1,5 @@
 <template>
-  <div id="content">
+  <div lang="ja" id="content">
     <Nuxt />
   </div>
 </template>
